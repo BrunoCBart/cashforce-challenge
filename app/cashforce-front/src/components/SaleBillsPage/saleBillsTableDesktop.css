@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+  .saleBills__header {
+    max-width: 100%;
+    margin: 0
+  }
+
+  .saleBills-table {
+    max-width: 100%;
+  }
+  .saleBills__order-container--header .saleBills__header-option {
+    width: 14%;
+   }
+
+  .saleBills__order-container .saleBills__orderData {
+    width: 14%
+  }
+
+  .saleBills__order-container .saleBills__btn {
+    width: 14%;
+    margin-left: 2rem;
+  }
+
+  
+  .saleBills__order-container--header {
+    border: none;
+    width: 100%;
+  }
+
+  .saleBills__header-option--last-blank {
+    margin-left: 2rem;
+  }
+
+  .saleBills__order-container {
+    padding: 1rem 1.5rem;
+  }
+
+}
+

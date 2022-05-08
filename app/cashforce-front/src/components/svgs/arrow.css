@@ -1,0 +1,15 @@
+.svg-arrow {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.saleBills__menu > .saleBills__hero-container > .svg-arrow {
+  display: none;
+}
+
+.saleBills__menu--open > .saleBills__hero-container > .svg-arrow {
+  display: initial;
+}

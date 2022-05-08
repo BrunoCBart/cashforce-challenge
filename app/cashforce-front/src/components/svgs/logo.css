@@ -1,0 +1,8 @@
+.saleBills__menu > .saleBills__hero-container > .svg-logo {
+  display: none;
+}
+
+.saleBills__menu--open > .saleBills__hero-container > .svg-logo {
+  display: initial;
+}
+

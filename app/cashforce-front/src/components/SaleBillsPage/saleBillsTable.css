@@ -1,0 +1,149 @@
+.saleBills-table-container {
+  padding: 4rem 2rem
+}
+
+.saleBills__header {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.saleBills__header-heading-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.saleBills__header-heading {
+  /* font-size: 1.5rem; */
+  color: var(--dark-blue);
+  margin-left: 0.5rem;
+}
+
+
+
+.saleBills__header--subtitle {
+  font-family: 'DM Sans-regular';
+  color: var(--gray-light-2)
+}
+
+.saleBills-table {
+  /* font-size: 0.875rem; */
+  color: var(--gray-medium);
+  transition: width 0.5s ease;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.saleBills__order-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #DFE2EB;
+  padding: 1rem 0.4rem;
+}
+
+.saleBills__order-container--border-none {
+  border: none;
+}
+
+
+.saleBills__orderData--green-col {
+  color: var(--green-col)
+}
+
+.saleBills__header-option {
+  color: var(--gray-light);
+}
+
+.saleBills__btn {
+  background: transparent;
+  border: 1px solid var(--gray-light);
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+  cursor: pointer;  
+  margin-top: 0.5rem;
+  width: 100%;
+  color: var(--gray-medium);
+}
+
+.saleBills__btn:hover {
+  background: var(--green-col);
+  color: white;
+  
+}
+
+
+.saleBills__desktop-order-container {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+@media screen and (min-width: 1040px) {
+  .saleBills-menu--open ~ .saleBills-table-container {
+    margin-left: 220px;
+  }
+}
+
+
+
+/* 
+.saleBills-table-container {
+  transition: margin 0.5s ease;
+}
+
+.saleBills-table {
+  margin-top: 2.7rem;
+  margin-inline: auto;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  font-family: 'DM Sans';
+  color: #4D5566;
+  font-size: 0.875rem
+}
+
+.saleBills-table tbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.saleBills-table th {
+  color: #A1A8B8;
+  font-size: 0.75rem
+}
+
+.saleBills-table tr {
+  border: 1px solid #DFE2EB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.saleBills-table tr > td, th {
+  padding: 1rem;
+}
+
+.saleBills-table-button {
+  background-color: transparent;
+  border-radius: 0.8rem;
+  border: 1px solid rgb(153, 153, 153);
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+
+.saleBills-table-button:hover {
+  background-color: #00AD8C;
+  color: #fff;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .saleBills__menu--open ~ .saleBills-table-container {
+    margin-left: 220px;
+  }
+  
+}
+   */

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url(./fonts/DM_Sans-fontkit/dmsans-medium-webfont.woff);
+}
+
+@font-face {
+  font-family: 'DM Sans-regular';
+  src: url(./fonts/DM_Sans-fontkit/dmsans-regular-webfont.woff)
+}
+
+:root {
+  --green-col: #00AD8C;
+  --gray-light: #A1A8B8;
+  --gray-light-2: #727D94;
+  --gray-medium:#4D5566;
+  --dark-blue: #021B51;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'DM Sans';
+  font-size: clamp(1vw, 0.875rem, 1.5rem);
+}
+
+.bold {
+  font-weight: bold;
+}
