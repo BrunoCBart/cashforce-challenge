@@ -2,6 +2,8 @@ Olá! Eu sou Bruno Bartolomeu e esse é a minha solução para o desafio cashfor
 
 Para rodar a aplicação basta seguir os passos a seguir: (É necessário estar no repositório pai do projeto e abrir um terminal para cada comando)
 
+Create a .env file following .env.example
+
 ```
 cd /app/cashforce-back; npm run dev
 cd /app/cashforce-front; npm run start
