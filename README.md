@@ -8,6 +8,7 @@ npm i
 
 Create a .env in the backend file following .env.example
 
+</br>
 
 Para rodar a aplicação basta seguir os passos a seguir: (É necessário estar no repositório pai do projeto e abrir um terminal para cada comando)
 
