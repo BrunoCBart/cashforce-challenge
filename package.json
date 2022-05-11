@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cd app/cashforce-front && npm i cd ../cashforce-back && npm i",
     "compose:up": "cd app; docker-compose up -d --build",
     "compose:down": "cd app; docker-compose down --remove-orphans"
   },

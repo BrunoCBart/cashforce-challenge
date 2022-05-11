@@ -1,7 +1,6 @@
 Olá! Eu sou Bruno Bartolomeu e esse é a minha solução para o desafio cashforce!
 
-
-At each app folder run:
+Run the next command in root folder:
 
 ```
 npm i 
