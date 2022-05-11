@@ -1,6 +1,6 @@
 Olá! Eu sou Bruno Bartolomeu e esse é a minha solução para o desafio cashforce!
 
-Run the next command in root folder:
+Install the packages in root folder
 
 ```
 npm i 
