@@ -1,4 +1,7 @@
 Olá! Eu sou Bruno Bartolomeu e esse é a minha solução para o desafio cashforce!
+<br>
+Este é um aplicativo fullstack muito simples que representa uma tabela.
+É prevalenete uma arquitetura MSC com Typescript no backend e uma estrutura de arquivos componetizada no front e nomes de classes ma convenção (BEM)[http://getbem.com/naming/]
 
 Install the packages in root folder
 
